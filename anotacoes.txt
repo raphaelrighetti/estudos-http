@@ -7,3 +7,41 @@ HTTP não é o único protocolo de transferência de informação que existe na 
 P2P, ou "Peer to Peer", é o protocolo utilizado para transferência de torrents, mas que também pode ser utilizado para outras coisas.
 
 Ele tem como característica não utilizar o modelo cliente-servidor, assim fazendo com que cada cliente também tenha um pouco da responsabilidade de enviar respostas e receber requisições, além de fazer requisições e receber respostas.
+
+============URL (Uniform Resource Locator)============
+
+URL é um mecanismo padronizado que nos permite acessar páginas e recursos específicos por meio do protocolo HTTP.
+
+URL existe para padronizar o endereço das páginas e recursos, assim tendo um formato consistente para os endereços.
+
+Ela segue o seguinte padrão:
+
+    <protocolo>://<domínio>:<porta>/<caminho do recurso>
+
+Seguindo este padrão, temos algo como:
+
+    http://localhost:8080/home
+
+URLs não estão limitadas a usar apenas o protocolo HTTP.
+
+============URI (Unified Resource Identifier)============
+
+URIs são caminhos padronizados até recursos específicos, mas podem não conter protocolo e nem a parte de apontar para um recurso específico, como quando acessamos um site sem colocar o "https://www...".
+
+Mas, basicamente, quando estamos falando de URI, estamos falando de URL e vice-versa.
+
+============PORTAS============
+
+Nem sempre precisamos especificar portas quando estamos acessando a um site ou algo do tipo. Isso ocorre porque temos portas padrões que são acessadas automaticamente quando não especificamos nenhum.
+
+Portas padrões:
+
+    HTTP: porta 80
+    HTTPS: porta 443
+    PORTAS LIVRES: 1023 até 65535
+
+Não usamos abaixo de 1023 porque são portas que podem ser utilizadas por outros serviços.
+
+============DNS============
+
+O DNS tem uma arquitetura em formato de árvore, o que facilita muito na hora de fazer as buscas pelo domínio desejado, pois ele vai descendo o nível hierarquico dos domínios até chegar no domínio desejado.
