@@ -1,0 +1,9 @@
+O HTTP é o protocolo utilizado na web, que funciona em um modelo cliente-servidor e outros protocolos como o TCP/IP para realmente fazer essa comunicação.
+
+HTTP não é o único protocolo de transferência de informação que existe na web, mas é o mais utilizado e está presente em qualquer site que entramos.
+
+============P2P============
+
+P2P, ou "Peer to Peer", é o protocolo utilizado para transferência de torrents, mas que também pode ser utilizado para outras coisas.
+
+Ele tem como característica não utilizar o modelo cliente-servidor, assim fazendo com que cada cliente também tenha um pouco da responsabilidade de enviar respostas e receber requisições, além de fazer requisições e receber respostas.
