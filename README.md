@@ -27,3 +27,13 @@ Foi uma aula que abordou coisas que eu já possuia conhecimento sobre, mas que c
 Nesta aula aprendi um pouco mais sobre as mensagens HTTP, como elas são estruturadas e etc.
 
 Também pude ver um pouco sobre cookies e as suas utilidades na web.
+
+### Aula 4
+
+#### Entendendo HTTPS
+
+Nesta aula aprendi como o HTTPS funciona e vi na prática como ele realmente consegue proteger a comunicação entre o cliente e servidor.
+
+Eu sabia da existência do HTTPS e sabia que para conseguir utilizá-lo, o servidor deve ter um certificado, mas não fazia ideia de como isso tudo realmente funciona.
+
+Foi uma aula muito interessante e que pude tirar bastante proveito.

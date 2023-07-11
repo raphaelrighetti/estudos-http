@@ -69,3 +69,17 @@ Dificilmente vamos escrever uma requisição HTTP na mão e usar um telnet da vi
 Por padrão, o HTTP não guarda estado, o que significa que ele não guarda informações sobre as mensagens anteriores.
 
 Podemos simular um estado fazendo um mecanismo de sessão, utilizando algo como um token JWT ou algo do tipo, ou também com os cookies, de forma que os cookies salvos localmente no cliente sejam usados para comprovar que ele é ele mesmo nas requisições feitas por ele.
+
+============HTTPS / TLS============
+
+HTTPS é um outro protocolo que funciona de maneira similar ao HTTP, mas que estabelece uma comunicação cliente-servidor com criptografia nas mensagens trocadas entre eles.
+
+Podemos utilizar o "openssl" para tornar a nossa aplicação que usa o HTTP uma aplicação que usa o HTTPS.
+
+Utilizando o protocolo HTTPS, as mensagens trocadas não ficarão legíveis, mesmo que interceptadas.
+
+O HTTPS necessita de um certificado e uma chave privada, de forma que o certificado contenha a chave pública e todas as informações que comprovam que aquela entidade é quem diz ser e a chave privada não seja exposta para fora do servidor, sendo utilizada para fazer a criptografia e todo o resto. São geradas chaves privadas para cada cliente que se conecta ao servidor também, que também são utilizadas na comunicação, por isso as mensagens interceptadas não ficam legíveis.
+
+As mensagens enviadas pelo cliente são cifradas pela chave pública e só podem ser decifradas utilizando a chave privada do servidor.
+
+HTTPS utiliza criptografia assimétrica e simétrica, de forma que começa com a assímétrica e depois da primeira requisição passa a usar a mesma chave gerada em tempo de execução para os dois lados, para melhorar a performance.
