@@ -45,3 +45,27 @@ Não usamos abaixo de 1023 porque são portas que podem ser utilizadas por outro
 ============DNS============
 
 O DNS tem uma arquitetura em formato de árvore, o que facilita muito na hora de fazer as buscas pelo domínio desejado, pois ele vai descendo o nível hierarquico dos domínios até chegar no domínio desejado.
+
+============REQUISIÇÕES / RESPOSTAS HTTP============
+
+As requisições HTTP seguem o seguinte padrão:
+
+    1. Linha inicial:
+
+        Linha onde definimos o método da requisição e o protocolo a ser utilizado.
+
+    2. Cabeçalhos:
+
+        Linhas que especificam uma série de configurações sobre a requisição / resposta, como o tipo do conteúdo e outras coisas.
+
+    3. Corpo:
+
+        Linhas que representam o conteúdo da requisição / resposta. Pode ser um JSON, um HTML e muito mais.
+
+Dificilmente vamos escrever uma requisição HTTP na mão e usar um telnet da vida para fazermos a requisição, mas é importante saber como as mensagens HTTP são estruturadas para sabermos como interpretá-las e montá-las usando as ferramentas de nossa escolha.
+
+============STATELESS============
+
+Por padrão, o HTTP não guarda estado, o que significa que ele não guarda informações sobre as mensagens anteriores.
+
+Podemos simular um estado fazendo um mecanismo de sessão, utilizando algo como um token JWT ou algo do tipo, ou também com os cookies, de forma que os cookies salvos localmente no cliente sejam usados para comprovar que ele é ele mesmo nas requisições feitas por ele.

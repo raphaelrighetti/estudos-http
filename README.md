@@ -19,3 +19,11 @@ Outra coisa que foi abordada foi o protocolo P2P (Peer to Peer), que é o protoc
 Nesta aula aprendi um pouco mais sobre as URLs, a diferença entre uma URL e uma URI, as portas padrões de certos protocolos, a arquitetura dos servidores de DNS e etc.
 
 Foi uma aula que abordou coisas que eu já possuia conhecimento sobre, mas que consegui tirar proveito vendo com mais clareza esses tópicos.
+
+### Aula 3
+
+#### Aprofundando nas mensagens HTTP
+
+Nesta aula aprendi um pouco mais sobre as mensagens HTTP, como elas são estruturadas e etc.
+
+Também pude ver um pouco sobre cookies e as suas utilidades na web.
