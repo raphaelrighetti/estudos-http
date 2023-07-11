@@ -97,3 +97,17 @@ Entretanto, é muito importante utilizar os métodos HTTP de maneira semântica,
 É um cabeçalho que especifica o tipo de corpo aceito na mensagem HTTP.
 
 Temos vários tipos de corpos aceitos em mensagens HTTP, desde texto comum até imagens. Podemos encontrar esses tipos no RFC.
+
+============HTTP/2============
+
+Essa versão do HTTP traz algumas melhorias para o protocolo.
+
+Uma delas é a multiplexação, que é a capacidade de fazermos mais de uma requisição HTTP ao mesmo tempo na mesma conexão TCP/IP, coisa que não é possível com o HTTP/1.1, pois precisamos esperar que a requisição termine e receba a resposta antes de enviar outra.
+
+Outra é a compactação do cabeçalho, que consiste em transformar o cabecalho em um binário muito menor do que o texto puro que temos no HTTP/1.1, assim economizando recursos na troca de mensagens.
+
+Outra é o server push, que consiste em o servidor enviar dados para o cliente sem que o cliente precise fazer uma requisição para recebê-los. Isso é muito útil para coisas que sempre precisam estar presentes no cliente, como imagens que não mudam em um servidor e etc.
+
+Cada linguagem possui uma biblioteca ou framework que nos permite utilizar o HTTP/2, assim como muitos outros recursos, ou seja, não é algo de outro mundo fazer o uso dessa versão do protocolo.
+
+Também já estão utilizando o HTTP/3, que utiliza o QUIC no lugar do TCP, assim melhorando a performance. Ainda não existe tantas facilidades assim para utilizar esse protocolo, como bibliotecas e etc, mas a própria Google já está utilizando.

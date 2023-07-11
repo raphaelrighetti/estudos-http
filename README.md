@@ -43,3 +43,19 @@ Foi uma aula muito interessante e que pude tirar bastante proveito.
 #### Parâmetros em mensagens HTTP
 
 Nesta aula pude ver um pouco sobre os parâmetros em mensagens HTTP, coisa que eu já sabia e estou habituado a utilizar, mas também pude ver alguns detalhes interessantes.
+
+### Aula 6
+
+#### Conhecendo novas versões do HTTP
+
+Nesta aula vi um pouco sobre a versão 2 do HTTP, assim como a 3.
+
+Pude entender algumas das principais melhorias que elas trazem, além de ver um exemplo prático de como utilizar a versão 2.
+
+### Conclusão
+
+Vi muitas coisas sobre o protocolo HTTP nesse curso, algumas coisas que eu já sabia, alguns detalhes que eu não sabia e por aí vai.
+
+Foi um curso bem rápido de terminar, pois ficou mais na teoria e eu já estava familiarizando com a maioria das coisas mostradas nele, mas mesmo assim consegui tirar proveito de muito conteúdo que foi passado no curso.
+
+Enfim, gostei bastante do curso e me sinto mais confiante com meu conhecimento do protocolo HTTP, principalmente no meu conhecimento sobre o HTTPS.
