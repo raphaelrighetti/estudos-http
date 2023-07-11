@@ -37,3 +37,9 @@ Nesta aula aprendi como o HTTPS funciona e vi na prática como ele realmente con
 Eu sabia da existência do HTTPS e sabia que para conseguir utilizá-lo, o servidor deve ter um certificado, mas não fazia ideia de como isso tudo realmente funciona.
 
 Foi uma aula muito interessante e que pude tirar bastante proveito.
+
+### Aula 5
+
+#### Parâmetros em mensagens HTTP
+
+Nesta aula pude ver um pouco sobre os parâmetros em mensagens HTTP, coisa que eu já sabia e estou habituado a utilizar, mas também pude ver alguns detalhes interessantes.

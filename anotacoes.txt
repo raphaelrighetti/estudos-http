@@ -24,6 +24,8 @@ Seguindo este padrão, temos algo como:
 
 URLs não estão limitadas a usar apenas o protocolo HTTP.
 
+Importante saber que, pelo protocolo HTTP, não existe limite para tamanho de uma URL ou quantidade de parâmetros limite, mas existe uma convenção que define um limite de 2000 caracteres para uma URL.
+
 ============URI (Unified Resource Identifier)============
 
 URIs são caminhos padronizados até recursos específicos, mas podem não conter protocolo e nem a parte de apontar para um recurso específico, como quando acessamos um site sem colocar o "https://www...".
@@ -83,3 +85,15 @@ O HTTPS necessita de um certificado e uma chave privada, de forma que o certific
 As mensagens enviadas pelo cliente são cifradas pela chave pública e só podem ser decifradas utilizando a chave privada do servidor.
 
 HTTPS utiliza criptografia assimétrica e simétrica, de forma que começa com a assímétrica e depois da primeira requisição passa a usar a mesma chave gerada em tempo de execução para os dois lados, para melhorar a performance.
+
+============MÉTODOS HTTP============
+
+Importante saber que o método utilizado não nos impede de fazer algo que não tem relação nenhuma com o seu propósito. Podemos apagar um recurso utilizando o método GET, por exemplo, se esse comportamento estiver definido no servidor.
+
+Entretanto, é muito importante utilizar os métodos HTTP de maneira semântica, pois assim teremos muito mais clareza do que está realmente acontecendo.
+
+============Accept============
+
+É um cabeçalho que especifica o tipo de corpo aceito na mensagem HTTP.
+
+Temos vários tipos de corpos aceitos em mensagens HTTP, desde texto comum até imagens. Podemos encontrar esses tipos no RFC.
